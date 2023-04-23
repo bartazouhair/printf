@@ -54,3 +54,16 @@ else if (size == S_SHORT)
 return ((short)num);
 return ((int)num);
 }
+/**
+ * convert_size_unsgnd - casts a number to the specified size
+ * @num: number to be casted
+ * @size: number indicating the type to be casted
+ * Return: casted value of num
+ */
+long int convert_size_unsgnd(unsigned long int num, int size)
+{
+if (size == S_LONG)
+return (num);
+else if (size == S_SHORT)
+return ((unsigned short)num);
+
