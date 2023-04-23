@@ -1,9 +1,10 @@
 #include "main.h"
 void print_buffer(char buffer[], int *buff_ind);
+
 /**
-* _printf - Printf function
+* _printf - printf function
 * @format: format.
-* Return: Printed chars.
+* Return: printed chars.
 */
 int _printf(const char *format, ...)
 {
@@ -21,6 +22,7 @@ if (format[i] != '%')
 buffer[buff_ind++] = format[i];
 if (buff_ind == BUFF_SIZE)
 print_buffer(buffer, &buff_ind);
+
 /* write(1, &format[i], 1);*/
 printed_chars++;
 }
@@ -43,6 +45,7 @@ print_buffer(buffer, &buff_ind);
 va_end(list);
 return (printed_chars);
 }
+
 /**
  * print_buffer - prints the contents of the buffer if it exist
  * @buffer: array of chars
