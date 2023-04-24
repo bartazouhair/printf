@@ -19,10 +19,8 @@ Group Project:  Zouhair BARTA & ELWAHBI AMINE
 6. How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print. Handle the following conversion specifier: p.                                       
 7. The big print gives and the small print takes away. Handle the following flag characters for non-custom conversion specifiers:          
                                                                                     
-8. Sarcasm is lost in print Handle the following length modifiers for non-custom conversion specifiers:                                                         
-l                                                                                   
-h                                                                                   
-Conversion specifiers to handle: d, i, u, o, x, X                                   
+8. Sarcasm is lost in print Handle the following length modifiers for non-custom conversion specifiers: l, h                                                                                   
+   Conversion specifiers to handle: d, i, u, o, x, X                                   
                                                                                     
 9. Print some money and give it to us for the rain forests Handle the field width for non-custom conversion specifiers.                        
                                                                                     
@@ -31,13 +29,8 @@ Conversion specifiers to handle: d, i, u, o, x, X
                                                                                     
 12. Every time that I wanted to give up, if I saw an interesting textile, print whatever, suddenly I would see a collection. Handle the - flag character for non-custom conversion specifiers.                   
                                                                                     
-13. Print is the sharpest and the strongest weapon of our party                     
-Handle the following custom conversion specifier:                                   
+13. Print is the sharpest and the strongest weapon of our party Handle the following custom conversion specifier:                                   
                                                                                     
-14. The flood of print has turned reading into a process of gulping rather than savo
-ring                                                                                
-Handle the following custom conversion specifier:                                   
-                                                                                    
+14. The flood of print has turned reading into a process of gulping rather than savoring.Handle the following custom conversion specifier:                                   
 15. *                                                                               
-All the above options work well together. 
-
+All the above options work well together.
